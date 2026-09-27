@@ -1,0 +1,38 @@
+{
+  "name": "Yaz",
+  "age": 104,
+  "active": true,
+  "profile": {
+    "city": "Yazoras",
+    "skills": [
+      "C++",
+      "Python",
+      "Rust"
+    ],
+    "projects": [
+      {
+        "name": "JSON Parser",
+        "completed": true,
+        "stars": 42
+      },
+      {
+        "name": "Compiler",
+        "completed": false,
+        "stars": null
+      }
+    ]
+  },
+  "settings": {
+    "darkMode": false,
+    "notifications": true,
+    "limits": [
+      10,
+      20,
+      30,
+      {
+        "max": 100,
+        "enabled": true
+      }
+    ]
+  }
+}
